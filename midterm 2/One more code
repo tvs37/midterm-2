@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var tenPercentTipLabel: UILabel!
     @IBOutlet weak var fifthteenPercentTipLabel: UILabel!
     @IBOutlet weak var twentyPercentTipLabel: UILabel!
+    @IBOutlet weak var splitAmount: UILabel!
     @IBOutlet weak var billAmount: UITextField!
     @IBOutlet weak var peoplePresent: UITextField!
     @IBOutlet weak var tenPercentSplitTip: UILabel!
@@ -54,10 +55,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 //methods and functions
     func hideKeyboard (){
-        billAmount.resignFirstResponder();
-        peoplePresent.resignFirstResponder()
-        
-    }
+        billAmount.resignFirstResponder(); peoplePresent.resignFirstResponder()    }
   
     func calculateTips(){
         guard let subtotal = Double(billAmount.text!) else {
@@ -66,7 +64,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
        print("the subtotal is: \(subtotal)")
 
-    
+        
         
         // Calculate Tips
         let tip1 = calculateTip(subtotal: subtotal, tipPercentage: 10)
@@ -80,7 +78,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     
     func calculateTip(subtotal: Double, tipPercentage: Double) -> Double{
-        return subtotal * (tipPercentage/100)
+        return subtotal * (tipPercentage / 100)
     
 
     }
@@ -115,6 +113,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         print("return pressed")
         hideKeyboard()
+        calculateTips()
         return true
     }
     

@@ -13,6 +13,8 @@
 		1DBB8185260F64BA003B191E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB8183260F64BA003B191E /* Main.storyboard */; };
 		1DBB8187260F64BC003B191E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB8186260F64BC003B191E /* Assets.xcassets */; };
 		1DBB818A260F64BC003B191E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB8188260F64BC003B191E /* LaunchScreen.storyboard */; };
+		1DBB8193260F982F003B191E /* code for bill  in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB8192260F982F003B191E /* code for bill  */; };
+		1DBB8196260FF23D003B191E /* One more code in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB8195260FF23D003B191E /* One more code */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1DBB8186260F64BC003B191E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DBB8189260F64BC003B191E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DBB818B260F64BC003B191E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB8192260F982F003B191E /* code for bill  */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "code for bill "; sourceTree = "<group>"; };
+		1DBB8195260FF23D003B191E /* One more code */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "One more code"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1DBB817D260F64BA003B191E /* AppDelegate.swift */,
 				1DBB817F260F64BA003B191E /* SceneDelegate.swift */,
 				1DBB8181260F64BA003B191E /* ViewController.swift */,
+				1DBB8195260FF23D003B191E /* One more code */,
+				1DBB8192260F982F003B191E /* code for bill  */,
 				1DBB8183260F64BA003B191E /* Main.storyboard */,
 				1DBB8186260F64BC003B191E /* Assets.xcassets */,
 				1DBB8188260F64BC003B191E /* LaunchScreen.storyboard */,
@@ -127,6 +133,8 @@
 				1DBB818A260F64BC003B191E /* LaunchScreen.storyboard in Resources */,
 				1DBB8187260F64BC003B191E /* Assets.xcassets in Resources */,
 				1DBB8185260F64BA003B191E /* Main.storyboard in Resources */,
+				1DBB8196260FF23D003B191E /* One more code in Resources */,
+				1DBB8193260F982F003B191E /* code for bill  in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
